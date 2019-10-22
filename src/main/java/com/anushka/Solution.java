@@ -8,6 +8,7 @@ import com.anushka.model.Chicken;
 import com.anushka.model.Dog;
 import com.anushka.model.Duck;
 import com.anushka.model.Fish;
+import com.anushka.model.Incects;
 import com.anushka.model.Parrot;
 import com.anushka.model.Rooster;
 
@@ -58,6 +59,16 @@ public class Solution {
         Animal butterfly = new Butterfly();
         butterfly.getFlyable().fly();
         System.out.println(butterfly.getSingable().sing());
+
+        System.out.println("------------------");
+        System.out.println("metamorphosis from caterpillar to butterfly");
+
+        Incects incects1 = Incects.determineType(5);
+        incects1.getFlyable().fly();
+
+        Incects incects2 = Incects.determineType(2);
+        incects2.getFlyable().fly();
+
 
 
 
