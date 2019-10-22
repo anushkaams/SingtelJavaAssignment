@@ -1,4 +1,4 @@
-# Assignment Anushka Senarathna
+# Assignment - Anushka Senarathna
 
 
  A 1 b. - By making Animal class abstract and add fly method in to it as an abstract method will improve the maintainability of the code.
