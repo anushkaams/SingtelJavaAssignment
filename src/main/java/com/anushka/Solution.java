@@ -1,6 +1,8 @@
 package com.anushka;
 
+import com.anushka.model.Animal;
 import com.anushka.model.Bird;
+import com.anushka.model.Butterfly;
 import com.anushka.model.Cat;
 import com.anushka.model.Chicken;
 import com.anushka.model.Dog;
@@ -50,6 +52,13 @@ public class Solution {
         fish.getSwimable().swim();
         fish.getWalkable().walk();
         System.out.println(fish.getSingable().sing());
+
+        System.out.println("------------------");
+
+        Animal butterfly = new Butterfly();
+        butterfly.getFlyable().fly();
+        System.out.println(butterfly.getSingable().sing());
+
 
 
     }
