@@ -5,14 +5,12 @@ import com.anushka.model.Cat;
 import com.anushka.model.Chicken;
 import com.anushka.model.Dog;
 import com.anushka.model.Duck;
+import com.anushka.model.Fish;
 import com.anushka.model.Parrot;
 import com.anushka.model.Rooster;
 
 public class Solution {
     public static void main(String[] args) {
-        Bird bird = new Bird();
-        bird.walk();
-
         System.out.println("------------------");
 
         Duck duck = new Duck();
@@ -46,6 +44,13 @@ public class Solution {
         System.out.println(parrot2.getSingable().sing());
         System.out.println(parrot3.getSingable().sing());
         System.out.println(parrot4.getSingable().sing());
+
+        System.out.println("------------------");
+        Fish fish = new Fish();
+        fish.getSwimable().swim();
+        fish.getWalkable().walk();
+        System.out.println(fish.getSingable().sing());
+
 
     }
 }
