@@ -1,6 +1,4 @@
-package com.anushka;
-
-import com.anushka.model.Bird;
+package com.anushka.model;
 
 /**
  * Duck model class
