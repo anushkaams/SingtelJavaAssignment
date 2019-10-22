@@ -9,28 +9,24 @@ public class Solution {
     public static void main(String[] args) {
         Bird bird = new Bird();
         bird.walk();
-        bird.fly();
-        bird.sing();
 
         System.out.println("------------------");
 
         Duck duck = new Duck();
-        duck.sing();
-        System.out.println(duck.sing());
+        System.out.println(duck.getSingable().sing());
         duck.swim();
 
         System.out.println("------------------");
 
         Bird chicken = new Chicken();
-        chicken.sing();
-        System.out.println(chicken.sing());
-        chicken.fly();
+        System.out.println(chicken.getSingable().sing());
+        chicken.getFlyable().fly();
 
         System.out.println("------------------");
 
         Bird rooster = new Rooster();
-        System.out.println(rooster.sing());
-        rooster.fly();
+        System.out.println(rooster.getSingable().sing());
+        rooster.getFlyable().fly();
 
     }
 }

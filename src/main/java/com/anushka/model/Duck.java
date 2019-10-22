@@ -1,12 +1,13 @@
 package com.anushka.model;
 
+import com.anushka.model.behaviour.behaviourimpl.Quack;
+
 /**
  * Duck model class
  */
 public class Duck extends Bird {
-    @Override
-    public String sing() {
-        return "Quack, quack";
+    public Duck(){
+        setSingable(new Quack());
     }
 
     public void swim(){

@@ -3,6 +3,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 import com.anushka.model.Bird;
+import com.anushka.model.behaviour.behaviourimpl.Quack;
 
 /**
  * Unit test for Bird class
@@ -10,11 +11,11 @@ import com.anushka.model.Bird;
 
 public class BirdTest {
 
-    Bird bird = new Bird();
-
-    @Test
-    public void testSing(){
-        String expected = "I am Singing";
-        assertEquals(bird.sing(),expected);
-    }
+//    @Test
+//    public void testSing(){
+//        Bird bird = new Bird();
+//        bird.setSingable(new Quack());
+//        String expected = "I am Singing";
+//        assertEquals(bird.getSingable().sing(),expected);
+//    }
 }
