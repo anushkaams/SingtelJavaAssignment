@@ -19,3 +19,4 @@ Note - I was able to complete up to the D 2 within the 1 and half hour, I did E 
 Link to the rest api implementation - https://github.com/anushkaams/SingtelRestAPI
 
 
+Please note asenarathn and anushkaams both are my github accounts and I used anushkaams one to create the repository, and account configured in my PC is asenarathn, That's why this repo shows two contributors. 
